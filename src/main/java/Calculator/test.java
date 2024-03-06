@@ -5,10 +5,10 @@ import Calculator.exception.ErrorException;
 import java.util.Scanner;
 
 public class test {
-
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
+
         boolean a = true;
         test app = new test();
 
@@ -94,4 +94,6 @@ public class test {
     }
 
 
+
 }
+
