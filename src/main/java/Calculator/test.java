@@ -26,7 +26,21 @@ public class test {
             System.out.println("첫 번째 값에서 두 번째 값을 뺀 값은" + result);
         }
 
+    }
+
+    public void division (int num1, int num2) {
+
+        int result;
+        try {
+            result   = num1 / num2;
+        } catch (Exception e) {
+            System.out.println("0으로 나눌 수 없습니다.");
+            throw new RuntimeException(e);
+
+        }
 
     }
+
+
 }
-}
+
